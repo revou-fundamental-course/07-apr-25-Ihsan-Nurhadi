@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+            <div class="logo"><img style="width: 60px;padding-left: 10px;" src="assets/Logo-RevoU-5.png"></div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#facilities">Our Headquarter</a>
+                <a href="#profile">Our Profile</a>
+                <a href="#messages">Message Us</a>
+            </nav>
+        </header>
+        <div class="container" id = 'home'>
+            <h1 id="greeting">Hi Nama, Selamat Datang di Website kami </h1>
+            <p>Ini adalah website latihan pertama</p>
+            <img class = 'sekolah'img src="assets/SMA Ksatrya.jpg">
+        </div>
+        <div id="profile">
+            <h2>Our Profile</h2>
+            <p>PT. Nexora Inovasi Digital adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital berbasis kecerdasan buatan (AI) dan Internet of Things (IoT) untuk sektor pendidikan dan kesehatan. Didirikan pada tahun 2020 di Jakarta, Nexora hadir untuk menjawab tantangan era digital dengan menyediakan produk dan layanan yang inovatif, aman, dan berkelanjutan.
+
+                Dengan tim ahli yang terdiri dari insinyur perangkat lunak, analis data, dan konsultan industri, Nexora telah meluncurkan berbagai produk unggulan seperti NexEd, platform pembelajaran berbasis AI yang adaptif, dan MedIoT, sistem monitoring kesehatan jarak jauh berbasis IoT yang digunakan oleh berbagai rumah sakit di Indonesia.
+                
+                Komitmen Nexora adalah menjadi mitra transformasi digital yang tidak hanya fokus pada teknologi, namun juga memberdayakan masyarakat dan menciptakan dampak sosial yang positif melalui setiap inovasi yang dihasilkan.</p>
+        </div>
+        <div class="facilities" id = 'facilities'>
+            <h2>Our Headquarter</h2>
+            <div class="facility">
+                <div class="group">
+                <img class = "facility-img"src="assets/Jakarta.jpg" alt="jakarta">
+                <h3>Jakarta</h3>
+                </div>
+                <div class="group">
+                <img class = "facility-img" src="assets/semarang.jpeg" alt="semarang">
+                <h3>Semarang</h3>
+                </div>
+                <div class="group">
+                <img class = "facility-img" src="assets/surabaya.jpeg" alt="surabaya">
+                <h3>Surabaya</h3>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="message-form" id='messages'>
+            <h2 >Message Us</h2>
+            <input type="text" id="name" placeholder="Nama Lengkap" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="number" id="phone" placeholder="Nomor Telepon" required>
+            <textarea id="message" rows="4" placeholder="Pesan" required></textarea>
+            <button id="submit">Kirim Pesan</button>      
+        </div>
+        <div class="result" id="result" style="display:none;">
+            <h3>Pesan Anda:</h3>
+            <p id="displayName"></p>
+            <p id="displayEmail"></p>
+            <p id="displayPhone"></p>
+            <p id="displayMessage"></p>
+        </div>
+
+        <footer>
+            &copy; Website by Eveline Nazirah Kertapradja
+        </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
